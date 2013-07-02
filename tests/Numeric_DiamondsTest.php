@@ -1,12 +1,14 @@
 <?php
 
+require_once(dirname(__FILE__) . "/../Numeric_Diamonds.php");
+
 class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
 
 	/**
 	 * Sets up our state
 	 */
 	public function setUp() {
-
+		
 	}
 
 	/**
@@ -14,28 +16,28 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
 	 * set the number
 	 */
     public function testConstruct() {
-
+    	
     }
 
     /**
      * Test our check for detecting if a number is square
      */
     public function testCheckNumberIsSquare() {
-
+    	
     }
 
     /**
      * Test our diamond output
      */
     public function testGenerateDiamond() {
-
+    	
     }
 
     /**
      * Resets our state
      */
     public function tearDown() {
-
+    	
     }
 
 }
