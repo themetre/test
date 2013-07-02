@@ -23,13 +23,13 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
     	$Numeric_Diamonds = new Numeric_Diamonds(9);
 
     	$this->assertEquals(
-    		$this->readAttribute($this->Numeric_Diamonds, '_squareNumber'), 9);
+    		$this->readAttribute($Numeric_Diamonds, '_squareNumber'), 9);
 
     	//Check to see if construct can set _squareNumber to 20
     	$Numeric_Diamonds = new Numeric_Diamonds(20);
 
     	$this->assertEquals(
-    		$this->readAttribute($this->Numeric_Diamonds, '_squareNumber'), 20);
+    		$this->readAttribute($Numeric_Diamonds, '_squareNumber'), 20);
 
     }
 
