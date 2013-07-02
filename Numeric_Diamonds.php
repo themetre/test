@@ -12,7 +12,7 @@ class Numeric_Diamonds {
 	 * 
 	 */
 	public function __construct($squareNumber) {
-
+		
 	}
 
 	/**
