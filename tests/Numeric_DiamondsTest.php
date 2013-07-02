@@ -14,6 +14,8 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
 	/**
 	 * We test that our construct does indeed
 	 * set the number
+	 * 
+	 * @covers Numeric_Diamonds::__construct
 	 */
     public function testConstruct() {
 
@@ -33,6 +35,8 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Test our check for detecting if a number is square
+     * 
+     * @covers Numeric_Diamonds::_checkNumberIsSquare
      */
     public function testCheckNumberIsSquare() {
 
@@ -71,6 +75,8 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
 
     /**
      * Test our diamond output
+     * 
+     * @covers Numeric_Diamonds::generateDiamond
      */
     public function testGenerateDiamond() {
 
