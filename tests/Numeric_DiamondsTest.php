@@ -8,9 +8,7 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
 	 * Sets up our state
 	 */
 	public function setUp() {
-
 		$this->Numeric_Diamonds = new Numeric_Diamonds(100);
-
 	}
 
 	/**
@@ -90,13 +88,6 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
     	$Numeric_Diamonds_1 = new Numeric_Diamonds(100);
     	$this->assertStringEqualsFile(__DIR__.'/expected/100.txt', 
     		$Numeric_Diamonds_1->generateDiamond());
-
-    }
-
-    /**
-     * Resets our state
-     */
-    public function tearDown() {
 
     }
 
