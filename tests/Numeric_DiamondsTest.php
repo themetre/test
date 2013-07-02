@@ -76,6 +76,21 @@ class Numeric_DiamondsTest extends PHPUnit_Framework_TestCase {
      */
     public function testGenerateDiamond() {
 
+    	//Test triangle with input of 9
+    	$Numeric_Diamonds_1 = new Numeric_Diamonds(9);
+    	$this->assertStringEqualsFile(__DIR__.'/expected/9.txt', 
+    		$Numeric_Diamonds_1->generateDiamond());
+
+    	//Test triangle with input of 36
+    	$Numeric_Diamonds_1 = new Numeric_Diamonds(36);
+    	$this->assertStringEqualsFile(__DIR__.'/expected/36.txt', 
+    		$Numeric_Diamonds_1->generateDiamond());
+
+    	//Test triangle with input of 100
+    	$Numeric_Diamonds_1 = new Numeric_Diamonds(100);
+    	$this->assertStringEqualsFile(__DIR__.'/expected/100.txt', 
+    		$Numeric_Diamonds_1->generateDiamond());
+
     }
 
     /**
