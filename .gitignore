@@ -1,2 +1,3 @@
 # Ignore our review file added by PHPUnit
+.project
 review
